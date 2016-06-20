@@ -45,9 +45,10 @@ group :development do
   gem 'spring'
 end
   group :development, :test do
-    gem 'rspec-rails'
+    gem 'rspec-rails', '~> 3.4.2'
   end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '~> 2.7.1'
+  gem 'shoulda-matchers', '~> 3.1.1'
 end
