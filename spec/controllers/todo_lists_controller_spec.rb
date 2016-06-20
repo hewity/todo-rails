@@ -23,7 +23,7 @@ RSpec.describe TodoListsController, type: :controller do
   # This should return the minimal set of attributes required to create a valid
   # TodoList. As you add validations to TodoList, be sure to
   # adjust the attributes here as well.
-  let(:valid_attributes) {
+  let(:valid_attributes) { {"title" => "MyString", "description" => "My Description"}
     skip("Add a hash of attributes valid for your model")
   }
 
