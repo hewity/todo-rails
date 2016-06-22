@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: #47C2BE;
+  color: #666666;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+tr {
+  font-size: 1.50em;
+  color: #194B4D;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+ div.alert {
+  border: 2px solid #aaa;
+  padding: 10px;
+}
+
+div.flash.success {
+  border: 2px solid green;
+  color: green;
+}
+div.flash.error   {
+   border: 2px solid #B0483B;
+   color: #B0483B;
+}
+div.flash.notice  {
+  border: 2px solid blue;
+  color: blue;
+}
