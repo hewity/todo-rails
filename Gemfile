@@ -45,10 +45,17 @@ group :development do
   gem 'spring'
 end
   group :development, :test do
+    gem 'sqlite3'
     gem 'rspec-rails', '~> 3.4.2'
+    gem 'pry'
   end
 
 group :test do
   gem 'capybara', '~> 2.7.1'
   gem 'shoulda-matchers', '~> 3.1.1'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
