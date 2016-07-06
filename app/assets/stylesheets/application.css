@@ -22,25 +22,28 @@ tr {
   font-size: 1.50em;
   color: #194B4D;
 }
+header{
+  margin-top: 20px;
+}
 
 a {
   text-decoration: none;
   font-weight: bold;
 }
  div.alert {
-  border: 2px solid #aaa;
+  border: 2px solid #339799;
   padding: 10px;
 }
 
 div.flash.success {
-  border: 2px solid green;
+  border: 2px solid #339799;
   color: green;
 }
 div.flash.error   {
-   border: 2px solid #B0483B;
+   border: 2px solid #339799;
    color: #B0483B;
 }
 div.flash.notice  {
-  border: 2px solid blue;
+  border: 2px solid #339799;
   color: blue;
 }

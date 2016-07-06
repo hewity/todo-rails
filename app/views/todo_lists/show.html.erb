@@ -7,7 +7,7 @@
 
 <ul>
   <% @todo_list.todo_items.incomplete.each do |todo_item| %>
-  <li><%= todo_item.content %><li>
+  <li><%= todo_item.content %></li>
     <% end %>
 </ul>
 <% end %>
@@ -17,7 +17,7 @@
 
 <ul>
   <% @todo_list.todo_items.complete.each do |todo_item| %>
-  <li><%= todo_item.content %><li>
+  <li><%= todo_item.content %></li>
   <% end %>
 </ul>
 <% end %>
